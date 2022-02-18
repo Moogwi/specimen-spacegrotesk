@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+h1{
+    font-size: 12vw ;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    text-align: center;
+
+}
+
+h2{
+  font-size: 12vw;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h3{
+  font-size: 12vw;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h4{
+  font-size: 12vw;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.introduction{
+display: block;
+padding: 8px;
+  background-color: black;
+}
+
+.slide2{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  justify-content:space-between ;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 117px;
+}
+
+.slide2 div{
+  width: 30%;
+  line-height: 1.2;
+}
+
+.slash{
+  align-items: center;
+}
+
+.space{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.space:hover path {
+  fill:white;
+}
+
+.divspace{
+  background-color: black;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 0px;
+
+}
+
+.pbox{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.psize{
+  font-size: 50vw;
+  font-weight: 700;
+  color: white;
+  padding-left: 120px;
+  text-align: left;
+
+}
+
+.pparagraphe{
+  font-size: 2vw;
+  font-weight: 300;
+  align-items: right;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 250px;
+}
+
+.glyphesbox{
+  background-color: black;
+  display: flex;
+  align-items: center;
+
+}
+
+.video-glyphes{
+  width: 100%;
+}
+
+.creditsbox{
+  background-color: black;
+  display: flex;
+  align-items: center;
+
+}
+
+.credits{
+  font-size: 5vw;
+  padding-top: 500px;
+  padding-left: 120px;
+  padding-bottom: 120px;
+}
